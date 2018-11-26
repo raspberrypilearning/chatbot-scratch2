@@ -1,6 +1,6 @@
 --- no-print ---
 
-This is the Scratch 2 version of the project. There is also a [Scratch 3 version of the project](https://projects.raspberrypi.org/de-DE/projects/chatbot).
+This is the **Scratch 2** version of the project. There is also a [Scratch 3 version of the project](https://projects.raspberrypi.org/de-DE/projects/chatbot).
 Find information about moving to Scratch 3 at [rpf.io/scratch3upgrade](https://rpf.io/scratch3upgrade).
 
 --- /no-print ---
