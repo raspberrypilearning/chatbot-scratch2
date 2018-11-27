@@ -14,7 +14,7 @@ Before you start creating your chatbot, you need to decide what its personality 
 --- task ---
 Open the Chatbot Scratch starter project.
 
-Download the starter project from [rpf.io/p/en/chatbot-get](http://rpf.io/p/en/chatbot-get){:target="_blank"} and then open it using the offline editor.
+Download the starter project from [rpf.io/p/en/chatbot-scratch2-get](http://rpf.io/p/en/chatbot-scratch2-get){:target="_blank"} and then open it using the offline editor.
 
 If you need to download and install the Scratch offline editor, you can find it at rpf.io/scratchoff.
 --- /task ---
