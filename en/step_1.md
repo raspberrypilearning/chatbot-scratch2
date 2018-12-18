@@ -40,11 +40,11 @@ title: What you will need
 
 ### Software
 
-+ Scratch 2.0 (either [online](https://scratch.mit.edu/projects/editor/) or [offline](https://scratch.mit.edu/scratch2download/))
++ Scratch 2.0 [offline](https://rpf.io/scratchoff))
 
 ### Downloads
 
-[Find files to download here](http://rpf.io/p/en/chatbot-scratch2-go).
++ [Find files to download here](http://rpf.io/p/en/chatbot-scratch2-go).
 
 --- /collapse ---
 
