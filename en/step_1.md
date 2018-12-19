@@ -40,7 +40,7 @@ title: What you will need
 
 ### Software
 
-+ Scratch 2.0 [offline](https://rpf.io/scratchoff))
++ Scratch 2.0 [offline](https://rpf.io/scratchoff)
 
 ### Downloads
 
