@@ -21,15 +21,7 @@ Your chatbot should `ask "Do you want to go to the moon?"`{:class="blocksensing"
 Here are the code blocks you need to add to your chatbot code.
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
-switch backdrop to [moon v]
-
-ask [Do you want to go to the moon?] and wait
-
-if <(answer) = [yes]> then 
-
-end
-```
+![blocks_1545215337_9731195](images/blocks_1545215337_9731195.png)
 
 --- /hint ---
 
@@ -37,12 +29,7 @@ end
 
 This is what your code should look like:
 
-```blocks
-ask [Do you want to go to the moon?] and wait
-if <(answer) = [yes]> then 
-  switch backdrop to [moon v]
-end
-```
+![blocks_1545215339_0609887](images/blocks_1545215339_0609887.png)
 
 --- /hint ---
 
@@ -55,10 +42,7 @@ end
 Now you need to make sure that your chatbot starts in the right location when you click on it to talk to it. Add this block to the top of your chatbot code:
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
-when this sprite clicked
-switch backdrop to [space v]
-```
+![blocks_1545215340_1524174](images/blocks_1545215340_1524174.png)
 
 --- /task ---
 
@@ -73,16 +57,6 @@ Test your program, and answer "yes" when the chatbot asks if you want to go to t
 You can also add the following code inside the new `if`{:class="blockcontrol"} block to make the chatbot jump up and down four times if you answer "yes":
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
-if <(answer) = [yes]> then 
-  switch backdrop to [moon v]
-  repeat (4) 
-    change y by (10)
-    wait (0.1) secs
-    change y by (-10)
-    wait (0.1) secs
-  end
-end
-```
+![blocks_1545215341_2221138](images/blocks_1545215341_2221138.png)
 
 --- /task ---

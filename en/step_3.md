@@ -7,11 +7,7 @@ Now that you have a chatbot with a personality, you're going to program it to ta
 Click on your chatbot sprite, and add this code to it so that `when it's clicked`{:class="blockevents"}, it `asks for your name`{:class="blocksensing"} and then `says "What a lovely name!"`{:class="blocklooks"}.
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
-when this sprite clicked
-ask [What's your name?] and wait
-say [What a lovely name!] for (2) secs
-```
+![blocks_1545215329_2756374](images/blocks_1545215329_2756374.png)
 
 --- /task ---
 
@@ -30,11 +26,7 @@ Right now, your chatbot replies "What a lovely name!" every time you answer. You
 Change the chatbot sprite’s code to `join`{:class="blockoperators"} "Hi" with the `answer`{:class="blocksensing"} to the "What's your name?" question, so that the code looks like this:
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
-when this sprite clicked
-ask [What's your name?] and wait
-say (join [Hi ] (answer)) for (2) secs
-```
+![blocks_1545215331_1450102](images/blocks_1545215331_1450102.png)
 
 ![Testing a personalised reply](images/chatbot-answer-test.png)
 
@@ -55,12 +47,7 @@ Create a new variable called `name`{:class="blockdata"}.
 Now, change your chatbot sprites’s code to set the `name`{:class="blockdata"} variable to `answer`{:class="blocksensing"}:
 
 ![nano sprite](images/nano-sprite.png)
-```blocks
-when this sprite clicked
-ask [What's your name?] and wait
-set [name v] to (answer)
-say (join [Hi ] (name)) for (2) secs
-```
+![blocks_1545215332_251592](images/blocks_1545215332_251592.png)
 
 Your code should work as before: your chatbot should say hi using the name you type in.
 
