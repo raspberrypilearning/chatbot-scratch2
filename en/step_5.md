@@ -11,7 +11,16 @@ Change your chatbot's code. Your chatbot should ask the question "Are you OK nam
 ![Testing a chatbot reply](images/chatbot-if-test.png)
 
 ![nano sprite](images/nano-sprite.png)
-![blocks_1546846696_0240688](images/blocks_1546846696_0240688.png)
+```blocks
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) secs
++ ask (join [Are you OK ] (name)) and wait
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) secs
+end
+```
 
 To test your new code properly, you should test it __twice__: once with the answer "yes", and once with the answer "no".
 
@@ -26,7 +35,18 @@ Change your chatbot's code so that it replies "Oh no!" if it receives "no" as th
 Replace the `if, then`{:class="blockcontrol"} block with an `if, then, else`{:class="blockcontrol"} block, and include code so the chatbot can `say "Oh no!"`{:class="blocklooks"}.
 
 ![nano sprite](images/nano-sprite.png)
-![blocks_1546846697_6540992](images/blocks_1546846697_6540992.png)
+```blocks
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) secs
+ask (join [Are you OK ] (name)) and wait
++ if <(answer) = [yes]> then 
+  say [That's great to hear!] for (2) secs
+else 
++  say [Oh no!] for (2) secs
+end
+```
 
 --- /task ---
 
@@ -54,7 +74,20 @@ Change your chatbot's code so that the chatbot switches costumes when you type i
 Change the code inside the `if, then, else`{:class="blockcontrol"} block to `switch costume`{:class="blocklooks"}.
 
 ![nano sprite](images/nano-sprite.png)
-![blocks_1546846699_3126576](images/blocks_1546846699_3126576.png)
+```blocks
+when this sprite clicked
+ask [What's your name?] and wait
+set [name v] to (answer)
+say (join [Hi ] (name)) for (2) secs
+ask (join [Are you OK ] (name)) and wait
+if <(answer) = [yes]> then 
++  switch costume to [nano-c v]
+  say [That's great to hear!] for (2) secs
+else 
++  switch costume to [nano-d v]
+  say [Oh no!] for (2) secs
+end
+```
 
 Test and save your code. You should see your chatbot's face change depending on your answer.
 
@@ -72,7 +105,11 @@ You can try this out: run your code and answer "no" so that your chatbot's face 
 To fix this problem, add to the chatbot's code to `switch costume`{:class="blocklooks"} at the start `when the sprite is clicked`{:class="blockevents"}.
 
 ![nano sprite](images/nano-sprite.png)
-![blocks_1546846700_9834101](images/blocks_1546846700_9834101.png)
+```blocks
+when this sprite clicked
++ switch costume to [nano-b v]
+ask [What's your name?] and wait
+```
 
 ![Testing a costume fix](images/chatbot-costume-fix-test.png)
 
